@@ -1,0 +1,46 @@
+# Go
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories
+vendor/
+
+# Wails
+# Build output
+/build/bin
+/build/darwin
+/build/windows
+/build/wails.json
+
+# Frontend
+/frontend/node_modules
+/frontend/.next
+/frontend/out
+/frontend/.vercel
+/frontend/build
+/frontend/coverage
+/frontend/.DS_Store
+/frontend/*.pem
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/.env*.local
+/frontend/*.tsbuildinfo
+/frontend/next-env.d.ts
+/frontend/dist/*
+
+# General
+.DS_Store
+.idea/
+.vscode/
+*.log
